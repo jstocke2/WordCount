@@ -1,37 +1,13 @@
 # WordCount
 
-## Description
-Counts the number of words.
+A Python 2 text-processing exercise that reads \`gettysburg.txt\`, counts lowercased words with \`collections.Counter\`, and prints the resulting word list.
 
-## Language
-Python
+## Run
 
-## Overview
-A simple Python utility that counts the number of words in a text file or provided input string.
+Add \`gettysburg.txt\` beside the script, then run:
 
-## Features
-- Word counting
-- File input support
-- Text processing
+\`\`\`sh
+python2 "word_count .py"
+\`\`\`
 
-## Getting Started
-
-### Prerequisites
-- Python 3.x
-
-### Running the Project
-```bash
-python word_count.py <input_file>
-```
-
-## Usage
-```python
-python word_count.py myfile.txt
-# Output: Total words: 1234
-```
-
-## Requirements
-- Python 3.x
-
-## License
-See LICENSE file for details.
+The filename intentionally contains a space in this repository.
